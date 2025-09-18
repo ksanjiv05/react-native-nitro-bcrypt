@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "reactnativenitrobcrypt"
+  ],
+  "ios": {
+    "iosModuleName": "ReactNativeNitroBcrypt"
+  },
+  "android": {
+    "androidNamespace": [
+      "reactnativenitrobcrypt"
+    ],
+    "androidCxxLibName": "ReactNativeNitroBcrypt"
+  },
+  "autolinking": {
+    "ReactNativeNitroBcrypt": {
+      "cpp": "HybridReactNativeNitroBcrypt"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
