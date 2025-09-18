@@ -13,10 +13,10 @@ It wraps the **OpenBSD bcrypt algorithm** (via [Bcrypt.cpp](https://github.com/h
 
 ```sh
 # npm
-npm install react-native-nitro-bcrypt
+npm install react-native-nitro-modules react-native-nitro-bcrypt
 
 # or yarn
-yarn add react-native-nitro-bcrypt
+yarn add react-native-nitro-modules react-native-nitro-bcrypt
 ```
 
 Then install pods for iOS:
@@ -39,7 +39,7 @@ npx pod-install
 ## 🚀 Usage
 
 ```ts
-import { ReactNativeNitroBcrypt } from 'react-native-react-native-nitro-bcrypt'
+import { ReactNativeNitroBcrypt } from 'react-native-nitro-bcrypt'
 
 async function run() {
   // Generate hash with default cost (12)
