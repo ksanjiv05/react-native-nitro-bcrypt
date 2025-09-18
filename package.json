@@ -1,7 +1,7 @@
 {
-  "name": "react-native-react-native-nitro-bcrypt",
+  "name": "react-native-nitro-bcrypt",
   "version": "0.1.0",
-  "description": "react-native-react-native-nitro-bcrypt is a react native package built with Nitro",
+  "description": "Super-fast bcrypt password hashing for React Native using Nitro Modules",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -17,7 +17,11 @@
   },
   "keywords": [
     "react-native",
-    "react-native-react-native-nitro-bcrypt"
+    "react-native-nitro-bcrypt",
+    "bcrypt",
+    "nitro",
+    "password",
+    "hashing"
   ],
   "files": [
     "src",
@@ -43,11 +47,11 @@
   "workspaces": [
     "example"
   ],
-  "repository": "https://github.com//react-native-react-native-nitro-bcrypt.git",
-  "author": "",
+  "repository": "https://github.com/ksanjiv05/react-native-nitro-bcrypt",
+  "author": "Sanjiv",
   "license": "MIT",
-  "bugs": "https://github.com//react-native-react-native-nitro-bcrypt/issues",
-  "homepage": "https://github.com//react-native-react-native-nitro-bcrypt#readme",
+  "bugs": "https://github.com/ksanjiv05/react-native-nitro-bcrypt/issues",
+  "homepage": "https://github.com/ksanjiv05/react-native-nitro-bcrypt#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
